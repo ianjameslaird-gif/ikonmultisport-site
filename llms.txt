@@ -20,3 +20,5 @@
 - Website: https://ikonmultisport.com/
 - Instagram: https://www.instagram.com/sportssimulatorsg/
 - Instagram: https://www.instagram.com/lightboxsingapore/
+
+Each service section (Golf Sim, Sports Sim, Lightboxes) has separate Photos and Videos galleries.

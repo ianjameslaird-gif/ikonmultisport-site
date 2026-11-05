@@ -58,3 +58,9 @@ footer{padding:40px 20px;text-align:center;border-top:1px solid rgba(255,255,255
 .lbx img{max-width:92vw;max-height:84vh;width:auto;height:auto;-o-object-fit:contain;object-fit:contain;border-radius:8px}
 .lbx button{position:absolute;background:rgba(255,255,255,.1);color:#fff;border:0;font-size:40px;width:56px;height:56px;border-radius:50%;cursor:pointer}
 .x{top:16px;right:16px}.pv{left:12px}.nx{right:12px}.cap{position:absolute;bottom:16px;left:0;right:0;text-align:center;color:#ccc;padding:0 20px}
+.chips{display:flex;gap:8px;margin:18px 0 4px}.chips a{padding:6px 14px;border-radius:999px;border:1px solid var(--au);color:var(--au);font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;text-decoration:none}
+.sub{font-size:14px;letter-spacing:.2em;text-transform:uppercase;color:var(--au);margin:26px 0 12px;scroll-margin-top:90px}
+.vgal{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.vt{position:relative;aspect-ratio:16/9;border-radius:14px;overflow:hidden;background:#000}.vt video,.vt iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0;-o-object-fit:contain;object-fit:contain}
+.vph{aspect-ratio:16/9}
+@media(max-width:600px){.vgal{grid-template-columns:1fr}}
