@@ -38,6 +38,7 @@ h2{font-size:clamp(32px,5vw,54px);line-height:1.1;margin:6px 0 16px;color:#fff;t
 .gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
 .gi{display:block;aspect-ratio:4/5;overflow:hidden;border-radius:14px;background:var(--c);border:1px solid rgba(57,255,136,.15)}
 .gi img{width:100%;height:100%;-o-object-fit:cover;object-fit:cover;-webkit-transition:-webkit-transform .5s;transition:transform .5s}
+.gi.sq{aspect-ratio:1/1}.gi.sq img{-o-object-fit:contain;object-fit:contain}
 .gi:hover img{-webkit-transform:scale(1.05);transform:scale(1.05)}
 .ph{aspect-ratio:4/3;border-radius:14px;padding:2px;background:-webkit-linear-gradient(315deg,var(--g),var(--b),var(--au));background:linear-gradient(135deg,var(--g),var(--b),var(--au))}
 .ph-in{height:100%;border-radius:12px;background:radial-gradient(circle at 50% 30%,#13213a,#070b14 70%);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:20px}
