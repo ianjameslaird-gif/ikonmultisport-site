@@ -29,5 +29,5 @@ var sx=null;L.addEventListener('touchstart',function(e){sx=e.touches[0].clientX}
 L.addEventListener('touchend',function(e){if(sx===null)return;var dx=e.changedTouches[0].clientX-sx;if(Math.abs(dx)>40)mv(dx<0?1:-1);sx=null});
 // whatsapp form
 d.getElementById('wa').addEventListener('submit',function(e){e.preventDefault();var f=e.target,m='Hi Ikonmultisport, I would like to enquire.\nName: '+f.n.value+'\nCompany: '+f.c.value+'\nService: '+f.s.value+'\nEvent date: '+f.d.value+'\nDetails: '+f.m.value;
-window.open('https://wa.me/6593423910?text='+encodeURIComponent(m),'_blank')});
+window.open('https://wa.me/6594511945?text='+encodeURIComponent(m),'_blank')});
 })();
