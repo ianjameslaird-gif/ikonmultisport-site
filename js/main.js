@@ -17,7 +17,7 @@ h.addEventListener('touchmove',function(e){var t=e.touches[0];lit(d.elementFromP
 h.addEventListener('touchstart',function(){h.querySelectorAll('.nl').forEach(function(el,k){setTimeout(function(){lit(el)},k*60)})},{passive:true});
 // lightbox
 var L=d.getElementById('lbx'),LI=L.querySelector('img'),cap=L.querySelector('.cap'),set=[],cur=0;
-function show(){var a=set[cur];LI.src=a.href;LI.alt=a.querySelector('img').alt;cap.textContent=LI.alt}
+function show(){var a=set[cur],im=a.querySelector('img');LI.src=a.href;LI.alt=im.alt;cap.textContent=a.getAttribute('data-caption')||im.alt}
 function open(a){set=[].slice.call(d.querySelectorAll('.gi[data-g="'+a.dataset.g+'"]'));cur=set.indexOf(a);show();L.hidden=false;d.body.style.overflow='hidden'}
 function close(){L.hidden=true;d.body.style.overflow=''}
 function mv(n){cur=(cur+n+set.length)%set.length;show()}
